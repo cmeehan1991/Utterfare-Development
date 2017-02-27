@@ -1,0 +1,152 @@
+[29-Nov-2016 13:38:42 America/Chicago] PHP Warning:  include(Connections/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:38:42 America/Chicago] PHP Warning:  include(Connections/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:38:42 America/Chicago] PHP Warning:  include(): Failed opening 'Connections/DbConnection.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:39:58 America/Chicago] PHP Warning:  include(Connections/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:39:58 America/Chicago] PHP Warning:  include(Connections/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:39:58 America/Chicago] PHP Warning:  include(): Failed opening 'Connections/DbConnection.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:40:42 America/Chicago] PHP Warning:  include(Connections/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:40:42 America/Chicago] PHP Warning:  include(Connections/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:40:42 America/Chicago] PHP Warning:  include(): Failed opening 'Connections/DbConnection.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:40:44 America/Chicago] PHP Warning:  include(Connections/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:40:44 America/Chicago] PHP Warning:  include(Connections/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:40:44 America/Chicago] PHP Warning:  include(): Failed opening 'Connections/DbConnection.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:41:08 America/Chicago] PHP Warning:  include(includes/php/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:41:08 America/Chicago] PHP Warning:  include(includes/php/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:41:08 America/Chicago] PHP Warning:  include(): Failed opening 'includes/php/DbConnection.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:41:09 America/Chicago] PHP Warning:  include(includes/php/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:41:09 America/Chicago] PHP Warning:  include(includes/php/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:41:09 America/Chicago] PHP Warning:  include(): Failed opening 'includes/php/DbConnection.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:41:27 America/Chicago] PHP Warning:  include(/includes/php/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:41:27 America/Chicago] PHP Warning:  include(): Failed opening '/includes/php/DbConnection.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:43:23 America/Chicago] PHP Warning:  include(/includes/php/DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:43:23 America/Chicago] PHP Warning:  include(): Failed opening '/includes/php/DbConnection.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 13:43:36 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'cmeehan_dbsearch'@'localhost' (using password: YES)' in /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php:7
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php(7): PDO->__construct('mysql:host=loca...', 'cmeehan_dbsearc...', 'dbsearch')
+#1 /home1/cmeehan/public_html/ufdev/index.php(3): include('/home1/cmeehan/...')
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php on line 7
+[29-Nov-2016 14:22:16 America/Chicago] PHP Warning:  include(DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 14:22:16 America/Chicago] PHP Warning:  include(DbConnection.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 14:22:16 America/Chicago] PHP Warning:  include(): Failed opening 'DbConnection.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 3
+[29-Nov-2016 14:22:26 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'cmeehan_dbsearch'@'localhost' (using password: YES)' in /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php:7
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php(7): PDO->__construct('mysql:host=loca...', 'cmeehan_dbsearc...', 'dbsearch')
+#1 /home1/cmeehan/public_html/ufdev/index.php(3): include('/home1/cmeehan/...')
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php on line 7
+[29-Nov-2016 14:22:39 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'cmeehan_dbsearch'@'localhost' (using password: YES)' in /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php:7
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php(7): PDO->__construct('mysql:host=loca...', 'cmeehan_dbsearc...', 'Wadiver15!')
+#1 /home1/cmeehan/public_html/ufdev/index.php(3): include('/home1/cmeehan/...')
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php on line 7
+[29-Nov-2016 14:23:53 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'cmeehan_dbsearch'@'localhost' to database 'utterfare'' in /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php:7
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php(7): PDO->__construct('mysql:host=loca...', 'cmeehan_dbsearc...', 'Wadiver15!')
+#1 /home1/cmeehan/public_html/ufdev/index.php(3): include('/home1/cmeehan/...')
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/DbConnection.php on line 7
+[06-Dec-2016 11:33:32 America/Chicago] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/index.php on line 4
+[06-Dec-2016 11:33:32 America/Chicago] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/index.php on line 4
+[09-Jan-2017 11:31:55 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home1/cmeehan/public_html/ufdev/login.php on line 56
+[09-Jan-2017 11:32:01 America/Chicago] PHP Warning:  include(mainHeader.php?mainHeader): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 55
+[09-Jan-2017 11:32:01 America/Chicago] PHP Warning:  include(mainHeader.php?mainHeader): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 55
+[09-Jan-2017 11:32:01 America/Chicago] PHP Warning:  include(): Failed opening 'mainHeader.php?mainHeader' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/login.php on line 55
+[09-Jan-2017 11:32:09 America/Chicago] PHP Warning:  include(header.php?mainHeader): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 55
+[09-Jan-2017 11:32:09 America/Chicago] PHP Warning:  include(header.php?mainHeader): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 55
+[09-Jan-2017 11:32:09 America/Chicago] PHP Warning:  include(): Failed opening 'header.php?mainHeader' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/login.php on line 55
+[09-Jan-2017 11:32:35 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:32:35 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:32:35 America/Chicago] PHP Warning:  include(): Failed opening 'header.php?' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:32:35 America/Chicago] PHP Fatal error:  Call to undefined function mainHeader() in /home1/cmeehan/public_html/ufdev/login.php on line 56
+[09-Jan-2017 11:32:49 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:32:49 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:32:49 America/Chicago] PHP Warning:  include(): Failed opening 'header.php?' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:32:49 America/Chicago] PHP Fatal error:  Call to undefined function mainHeader() in /home1/cmeehan/public_html/ufdev/login.php on line 56
+[09-Jan-2017 11:33:10 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:33:10 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:33:10 America/Chicago] PHP Warning:  include(): Failed opening 'header.php?' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:33:10 America/Chicago] PHP Fatal error:  Call to undefined function mainHeader() in /home1/cmeehan/public_html/ufdev/login.php on line 56
+[09-Jan-2017 11:34:04 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:04 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:04 America/Chicago] PHP Warning:  include(): Failed opening 'header.php?' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:04 America/Chicago] PHP Fatal error:  Call to undefined function mainHeader() in /home1/cmeehan/public_html/ufdev/login.php on line 56
+[09-Jan-2017 11:34:15 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:15 America/Chicago] PHP Warning:  include(header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:15 America/Chicago] PHP Warning:  include(): Failed opening 'header.php?' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:15 America/Chicago] PHP Fatal error:  Call to undefined function mainHeader() in /home1/cmeehan/public_html/ufdev/login.php on line 56
+[09-Jan-2017 11:34:28 America/Chicago] PHP Warning:  include(/header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:28 America/Chicago] PHP Warning:  include(): Failed opening '/header.php?' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:28 America/Chicago] PHP Fatal error:  Call to undefined function mainHeader() in /home1/cmeehan/public_html/ufdev/login.php on line 56
+[09-Jan-2017 11:34:38 America/Chicago] PHP Warning:  include(../header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:38 America/Chicago] PHP Warning:  include(../header.php?): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:38 America/Chicago] PHP Warning:  include(): Failed opening '../header.php?' for inclusion (include_path='.:/opt/php54/lib/php') in /home1/cmeehan/public_html/ufdev/login.php on line 53
+[09-Jan-2017 11:34:38 America/Chicago] PHP Fatal error:  Call to undefined function mainHeader() in /home1/cmeehan/public_html/ufdev/login.php on line 56
+[09-Jan-2017 14:52:39 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/cmeehan/public_html/ufdev/userHome.php on line 7
+[11-Jan-2017 14:59:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cmeehan/public_html/ufdev/userHome.php:55) in /home1/cmeehan/public_html/ufdev/sidebar.php on line 14
+[11-Jan-2017 15:00:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cmeehan/public_html/ufdev/userHome.php:55) in /home1/cmeehan/public_html/ufdev/sidebar.php on line 14
+[24-Feb-2017 11:56:03 America/Chicago] PHP Warning:  include(php/SearchAnalytics.php): failed to open stream: No such file or directory in /home1/cmeehan/public_html/ufdev/userHome.php on line 4
+[24-Feb-2017 11:56:03 America/Chicago] PHP Warning:  include(): Failed opening 'php/SearchAnalytics.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home1/cmeehan/public_html/ufdev/userHome.php on line 4
+[24-Feb-2017 11:56:03 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SearchAnalytics' not found in /home1/cmeehan/public_html/ufdev/userHome.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/userHome.php on line 5
+[24-Feb-2017 11:56:25 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY TERM_COUNT DESC' at line 1 in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php:93
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php(93): PDOStatement->execute()
+#1 /home1/cmeehan/public_html/ufdev/userHome.php(84): SearchAnalytics->get_top_terms()
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 93
+[24-Feb-2017 11:57:21 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TERM_COUNT DESC' at line 1 in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php:93
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php(93): PDOStatement->execute()
+#1 /home1/cmeehan/public_html/ufdev/userHome.php(84): SearchAnalytics->get_top_terms()
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 93
+[24-Feb-2017 12:00:16 America/Chicago] PHP Parse error:  syntax error, unexpected '", TERM) as 'TERM', TERM_COUNT' (T_CONSTANT_ENCAPSED_STRING) in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 91
+[24-Feb-2017 12:00:23 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') as 'TERM', TERM_COUNT FROM SEARCH_TERMS ORDER BY 'TERM_COUNT' DESC LIMIT 5' at line 1 in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php:93
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php(93): PDOStatement->execute()
+#1 /home1/cmeehan/public_html/ufdev/userHome.php(84): SearchAnalytics->get_top_terms()
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 93
+[24-Feb-2017 12:00:52 America/Chicago] PHP Parse error:  syntax error, unexpected '$num_rows' (T_VARIABLE) in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 97
+[24-Feb-2017 16:11:22 America/Chicago] PHP Parse error:  syntax error, unexpected '$today' (T_VARIABLE) in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 105
+[24-Feb-2017 16:13:30 America/Chicago] PHP Parse error:  syntax error, unexpected '$today' (T_VARIABLE) in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 105
+[24-Feb-2017 16:13:41 America/Chicago] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 109
+[24-Feb-2017 16:13:41 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php:110
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php(110): PDOStatement->execute()
+#1 /home1/cmeehan/public_html/ufdev/userHome.php(81): SearchAnalytics->get_total_daily_searches()
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 110
+[24-Feb-2017 16:14:05 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y-%m-%d) = '2017-02-24'' at line 1 in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php:110
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php(110): PDOStatement->execute()
+#1 /home1/cmeehan/public_html/ufdev/userHome.php(81): SearchAnalytics->get_total_daily_searches()
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 110
+[24-Feb-2017 16:14:19 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y-%m-%d) = '2017-02-24'' at line 1 in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php:110
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php(110): PDOStatement->execute()
+#1 /home1/cmeehan/public_html/ufdev/userHome.php(81): SearchAnalytics->get_total_daily_searches()
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 110
+[24-Feb-2017 16:14:20 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y-%m-%d) = '2017-02-24'' at line 1 in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php:110
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php(110): PDOStatement->execute()
+#1 /home1/cmeehan/public_html/ufdev/userHome.php(81): SearchAnalytics->get_total_daily_searches()
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 110
+[24-Feb-2017 16:14:40 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y-%m-%d) = '2017-02-24'' at line 1 in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php:110
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php(110): PDOStatement->execute()
+#1 /home1/cmeehan/public_html/ufdev/userHome.php(81): SearchAnalytics->get_total_daily_searches()
+#2 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 110
+[26-Feb-2017 09:41:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::exceute() in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php:135
+Stack trace:
+#0 /home1/cmeehan/public_html/ufdev/userHome.php(75): SearchAnalytics->get_average_searches()
+#1 {main}
+  thrown in /home1/cmeehan/public_html/ufdev/includes/php/SearchAnalytics.php on line 135
